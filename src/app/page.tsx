@@ -1,9 +1,10 @@
 import Image from "next/image";
-import { MainDashboard } from "@/components/main-dashboard";
-import { UserDashboard } from "@/components/user-dashboard";
+import { MainDashboard } from "@/components/ui/main-dashboard";
+import { UserDashboard } from "@/components/ui/user-dashboard";
 
 export default function Home() {
   return (
+
 
 
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
